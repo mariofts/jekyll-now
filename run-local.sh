@@ -1,3 +1,3 @@
-docker rm $(docker rm -f local-jekyll) >> dev/null
+source ../pages-gem/contrib/func.sh
 
-docker run -t --rm --name local-jekyll -v "$PWD":/site -p "4000:4000" andredumas/github-pages serve --watch --draft
+github-pages
