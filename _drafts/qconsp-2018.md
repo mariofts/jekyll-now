@@ -3,7 +3,7 @@ layout: post
 title: QConSP 2018
 ---
 
-Este ano tive a oportunidade de palestrar e participar do QCon aqui em São Paulo. Quero contar um pouco minhas impressões sobre o evento e sobre as palestras que assisti:
+Este ano tive a oportunidade de palestrar e participar do QCon aqui em São Paulo. Quero contar um pouco sobre como foi minha experiência:
 
 ## Sobre o evento em geral
 
@@ -19,18 +19,20 @@ Um ponto muito legal a se citar: As salas das palestras foram batizadas com nome
 
 Entre as palestras sempre havia um intervalo de pelo menos 15 min, isso não só ajudou a evitar um corre-corre entre as palestras, como também ajudou a evitar que um atraso acabasse prejudicando outro paletrante ou a grade toda. Nesses intervalos sempre tinha café e água, e eventualmente algum lanchinho, como pães de queijo e frutas. 
 
-## Palestras
+## Sobre as palestras
 
-Assisti palestras de várias trilhas, durante todos os dias do evento. Não lembro de todos os detalhes, mas vou falar das que eu assiti e lembro.
+### Que eu assisti
 
+Assisti palestras de várias trilhas, durante todos os dias do evento. Gostei bastante de algumas palestras, a destacar a [Adding Reactivity to your Web Apps using RxJS](https://qconsp.com/sp2018/presentation/adding-reactivity-your-web-apps-using-rxjs), do [Ben Lesh](https://twitter.com/BenLesh), pra mim a melhor palestra com live coding que eu assiti no evento. Assisti também a do [Lucas Cavalcanti](https://twitter.com/lucascs), [Arquitetura funcional em Microservices: 4 anos depois](https://qconsp.com/sp2018/presentation/arquitetura-funcional-em-microservices-4-anos-depois), onde ele explica como é mais fácil colcoar um serviço em produção hoje, 4 anos depois de iniciado o projeto que lá atrás. 
 
-### 
+Fiquei bastante tempo nas trilhas de soft skills e Gestão, onde assisti as palestras da [Olist](https://olist.com/) [sobre trabalho remoto](https://qconsp.com/sp2018/presentation/escalando-times-atrav%C3%A9s-do-trabalho-remoto), do [Paulo Silveira](http://twitter.com/paulo_caelum) [sobre soft skills](https://qconsp.com/sp2018/presentation/carreira-hipster-desafios-em-soft-skills-para-o-ex-programador-moderno).
 
+A palestra que eu mais gostei foi a do Anderson Borges, sobre [Erros e acertos ao migrar da carreira técnica para gestão](https://qconsp.com/sp2018/presentation/erros-e-acertos-que-cometi-ao-migrar-da-carreira-t%C3%A9cnica-para-gest%C3%A3o). Quando virei líder de um time cometi (e ainda cometo) vários do erros que o Anderson apontou, rolou uma identificação forte ali. Gosto de palestras que falam do lado negativo das coisas e como foram superados, a maior parte sempre omite os problemas como se eles não existissem.
 
+### Que eu apresentei
 
+Palestrei na trilha de Java Moderno, sobre [Persistência Poliglota](https://qconsp.com/sp2018/presentation/persist%C3%AAncia-poliglota-com-java-no-elo7). Falei dos desafios que enfrentamos ao tentar criar um microserviço para nosso sistema de chat, e como acabamos optando por user uma solução com dois bancos de dados diferentes em um mesmo sistema. 
 
+Fazendo uma auto análise, acho que deveria ter colocado mais alguns exemplos de código, acho que no final acabou ficando bem abstrato. Mas toda palestra é assim, no final sempre poderia ter sido melhor. Gostei bastante da experiência de falar no QCon, já tinha palestrado algumas vezes antes mas falar em um evento desse porte sempre é bacana. Fazia bastante tempo que eu não palestrava, e eu havia me esquecido de como gosto de subir lá e compartilhar um pouco de conhecimento com os outros. Talvez agora eu apareça com mais frequência por ai.
 
-
-
-
-
+No fim posso dizer que foi um ótimo evento, ano que vem tem mais.
