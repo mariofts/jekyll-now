@@ -5,18 +5,15 @@
 
     <meta property="og:locale" content="pt_BR" />
     <meta property="og:type" content="article" />
-    <meta name="twitter:card" content="summary" />
-
     <meta property="og:title"  content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-
-    <meta name="twitter:image" content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
     <meta property="og:image"  content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-
     <meta property="og:site_name" content="{{ site.title | escape }}">
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
     <meta name="author" content="{{ site.name }}" />
 
     <meta name="description"             content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:description"      content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site"    content="@{{ footer-links.twitter }}" />
+    <meta name="twitter:creator" content="@{{ footer-links.twitter }}" />
