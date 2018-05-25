@@ -4,7 +4,13 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     <meta property="og:locale" content="pt_BR" />
-    <meta property="og:type" content="article" />
+
+    {% if page.title %}
+        <meta property="og:type" content="article">
+    {% else %}
+        <meta property="og:type" content="website">
+    {% endif %}
+
     <meta property="og:title"  content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
     <meta property="og:image"  content="{% if page.thumbnail %}{{ page.thumbnail | prepend: site.image_base | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title | escape }}">
